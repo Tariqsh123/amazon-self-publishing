@@ -1131,4 +1131,7 @@
     .slicknav_nav .slicknav_arrow, header.main_header ul li a:after{
         display: none;
     }
+    .portfo_boxx {
+        width: 100%;
+    }
 }
