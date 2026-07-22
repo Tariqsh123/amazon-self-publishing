@@ -373,10 +373,10 @@
         width: 100%;
     }
     button.accordion {
-        padding: 10px 5px 30px;
+                padding: 10px 10px;
         font-size: 15px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         line-height: normal;
     }
     button.accordion h6 {
@@ -942,12 +942,19 @@
         width: 100%;
     }
     button.accordion {
-        padding: 10px 5px 30px;
+        padding: 10px 10px;
         font-size: 15px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         line-height: normal;
     }
+    .faqss .active {
+    background: #131921;
+    color: #ffd814;
+    height: fit-content;
+    padding: 10px 10px 30px;
+    align-items: center;
+}
     button.accordion h6 {
         font-size: 10px;
         margin: 0;
