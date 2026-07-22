@@ -1,0 +1,1124 @@
+@media only screen and (min-width: 1366px) and (max-width: 1920px) {
+    header.main_header ul li:hover:nth-child(2) ul {
+        width: 45%;
+    }
+    header.main_header ul li a:after {
+        bottom: -5px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+    header.main_header ul li:hover:nth-child(2) ul {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    section.youtube_vid_secc {
+        padding: 50px 0px 20px;
+    }
+    .thankyou__textt h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    section.thankyou_secc {
+        height: 100%;
+        padding: 150px 0 60px;
+        margin-bottom: 0;
+    }
+    .inner_banner {
+        height: 100%;
+        padding-top: 130px;
+    }
+    .inner_banner_textt h1 {
+        font-size: 20px;
+    }
+    .inner_banner_textt h2 {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .inner_banner_textt p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+    .inner_banner_textt ul {
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 20px;
+    }
+    .banner_from {
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px 20px;
+    }
+    section.our_books_secc {
+        padding: 30px 0px;
+    }
+    .books_headingg h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .book_textt ul li {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    header.main_header ul#menu {
+        display: none;
+    }
+    header.main_header {
+        padding: 0 !important;
+        position: relative;
+        background: #000 !important;
+    }
+    header.main_header .container {
+        display: none !important;
+    }
+    .call_any {
+        display: none !important;
+    }
+    /* Mobile header bar */
+    .mob-header-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        min-height: 60px;
+        width: 100%;
+        background: #000;
+    }
+    .mob-logo img {
+        width: 130px;
+        display: block;
+    }
+    /* slicknav styles */
+    .slicknav_menu {
+        background: transparent !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        line-height: normal;
+        float: none !important;
+    }
+    .slicknav_btn {
+        margin: 0 !important;
+        background-color: #f39200 !important;
+        border-radius: 4px;
+        padding: 8px 11px !important;
+        float: none !important;
+        display: block;
+    }
+    .slicknav_nav {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #111;
+        z-index: 99999;
+        padding: 10px 15px;
+        margin: 0 !important;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
+    }
+    .slicknav_nav ul {
+        max-height: 250px;
+        overflow-y: auto;
+    }
+    .slicknav_nav a {
+        color: #fff !important;
+        font-size: 14px;
+        padding: 8px 5px;
+    }
+    .slicknav_nav .slicknav_row a,
+    .slicknav_nav .slicknav_row {
+        color: #fff !important;
+    }
+    .slicknav_nav .slicknav_arrow {
+        color: #f39200;
+    }
+    header.main_header.sticky {
+        top: 0;
+        background: #000 !important;
+    }
+    section.banner_main .container {
+        left: 0;
+        top: 15%;
+    }
+    .banner_textt h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .banner_textt h2 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .banner_textt p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .btn-style-one {
+        width: 100% !important;
+    }
+    .theme_btn2 {
+        padding: 0;
+        font-size: 12px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .banner_textt ul {
+        flex-direction: column;
+        gap: 0px;
+        margin-bottom: 20px;
+    }
+    .btn-style-one .btn-title {
+        padding: 0 20px;
+        height: 37px;
+        line-height: 39px;
+        font-size: 14px;
+        width: 100%;
+    }
+    section.banner_main .banner_from {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .banner_from h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .banner_from form input,
+    textarea {
+        height: 40px;
+    }
+    .banner_from form textarea {
+        height: 70px;
+    }
+    section.banner_main {
+        height: 1060px;
+        padding-top: 110px;
+    }
+    .services-section .sec-title h2 {
+        font-size: 25px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .services-section .sec-title .lower-text {
+        width: 100%;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .service-block .inner-box {
+        padding: 30px 20px;
+    }
+    .service-block {
+        margin-bottom: 10px;
+    }
+    .cta_secc h2 {
+        font-size: 20px;
+    }
+    .cta_secc span {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .cta_secc .d-flex {
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 0;
+    }
+    .portfolio_textt h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .portfolio_textt p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .port_btm_textt p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .agency-section .left-col .inner {
+        padding: 0;
+    }
+    .agency-section .sec-title {
+        margin-bottom: 10px;
+    }
+    .sec-title h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    section.agency-section {
+        padding: 30px 0px;
+        padding-bottom: 0;
+    }
+    .tabs-box ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .default-tabs .tabs-content {
+        padding-top: 10px;
+    }
+    .default-tabs .tabs-content .text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .agency-section .right-col .text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .agency-section .featured-block-two {
+        padding: 0;
+        height: auto;
+    }
+    .agency-section .featured-block-two .image {
+        display: none;
+    }
+    section.testi_secc {
+        padding: 0 0px 20px;
+    }
+    .big_imggs_testii img.rev_imgg {
+        display: none;
+    }
+    .big_imggs_testii img {
+        height: 250px;
+        border-radius: 50%;
+    }
+    .big_imggs_testii img.mrsh_imgg {
+        display: none;
+    }
+    section.testi_secc .slick-list {
+        padding: 0;
+    }
+    .test_bigg_txt_wrpp h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .test_bigg_txt_wrpp span {
+        font-size: 12px;
+    }
+    .test_bigg_txt_wrpp p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .testi_small_deal {
+        display: none;
+    }
+    .testti_btmm p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .intersted_boxx_wrpp:after {
+        display: none;
+    }
+    .intersted_boxx_wrpp {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    section.news_letter_secc {
+        margin-bottom: 20px;
+    }
+    .intersted_boxx_wrpp ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .intersted_boxx_wrpp ul li h3 {
+        font-size: 20px;
+    }
+    .intersted_boxx_wrpp ul li p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .contact_form_secc {
+        height: 100%;
+    }
+    .forms_textt_sec h2 {
+        font-size: 25px;
+    }
+    .forms_textt_sec p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .forms_textt_sec form {
+        width: 100%;
+    }
+    .forms_textt_sec form input {
+        height: 40px;
+        margin-bottom: 8px;
+    }
+    .forms_textt_sec form textarea {
+        height: 70px;
+        margin-bottom: 8px;
+    }
+    .faqss .faqs-heading h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .faqss .faqs-heading p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    section.faqss .col-md-12 {
+        width: 100%;
+    }
+    button.accordion {
+        padding: 10px;
+        font-size: 15px;
+        display: flex;
+        line-height: 17px;
+    }
+    button.accordion h6 {
+        font-size: 10px;
+        margin: 0;
+        width: 20px;
+    }
+    .panel p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    footer {
+        padding: 30px 0px 0px;
+        height: 100%;
+    }
+    .footer_top ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .footer_top ul li h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_top ul li p {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer_details img {
+        width: 70%;
+    }
+    .footer_details p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .footer_btm p {
+        font-size: 14px;
+    }
+    .popupform h2 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .popupform h2+p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .bookSize {
+        margin: 0;
+        height: 100%;
+    }
+    .container.column1.zxccvbb {
+        margin: 0;
+        padding: 0 20px;
+    }
+    .asdfghjklop {
+        font-size: 25px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    .nth_textt h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .nth_textt p {
+        width: 100%;
+    }
+    section.we_are_nothing .col {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .nthh_sml {
+        margin-top: 20px;
+    }
+    .nthh_sml h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .youagian span {
+        font-size: 16px;
+    }
+    .youagian ul li {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    section.publishing_ebooks h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    section.publishing_ebooks p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .profession_headingg h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+    .profession_headingg p {
+        width: 100%;
+        line-height: 20px;
+    }
+    .tabing_wrppp {
+        width: 100%;
+    }
+    ul.tabbing-links {
+        display: block;
+        text-align: center;
+        margin: 30px 0px;
+    }
+    ul.tabbing-links li {
+        font-size: 13px;
+        width: fit-content;
+        display: inline-block;
+        margin-right: 6px;
+        text-align: center;
+    }
+    .any__profession_secc {
+        height: 100%;
+    }
+    .tabss_textt ul {
+        flex-direction: column;
+        gap: 0;
+    }
+    .tabss_textt p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+    .ebook_imgg {
+        margin-bottom: 20px;
+    }
+    .footer_links ul li a {
+        font-size: 14px;
+    }
+    .footer_adres ul li {
+        font-size: 14px;
+    }
+    .termss_textt {
+        width: 100%;
+    }
+    .termss_textt h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .termss_textt h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .termss_textt p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .termss_textt ul li {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {
+    .termss_textt {
+        width: 100%;
+    }
+    .termss_textt h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .termss_textt h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .termss_textt p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .termss_textt ul li {
+        font-size: 15px;
+    }
+    .ebook_imgg {
+        margin-bottom: 20px;
+    }
+    .footer_links ul li a {
+        font-size: 14px;
+    }
+    .footer_adres ul li {
+        font-size: 14px;
+    }
+    .youagian span {
+        font-size: 16px;
+    }
+    .youagian ul li {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    section.our_books_secc {
+        padding: 30px 0px;
+    }
+    .books_headingg h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .book_textt ul li {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+    .bookSize {
+        margin: 0;
+        height: 100%;
+    }
+    .container.column1.zxccvbb {
+        margin: 0;
+        padding: 0 20px;
+    }
+    .asdfghjklop {
+        font-size: 25px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    .nth_textt h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .nth_textt p {
+        width: 100%;
+    }
+    section.we_are_nothing .col {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .nthh_sml {
+        margin-top: 20px;
+    }
+    .nthh_sml h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .popupform h2 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .popupform h2+p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    header.main_header ul {
+        display: none;
+    }
+    header.main_header {
+        padding: 0 !important;
+        position: relative;
+        background: #000 !important;
+    }
+    header.main_header .container {
+        display: none !important;
+    }
+    header.main_header .col-md-2,
+    header.main_header .col-md-7 {
+        display: none !important;
+    }
+    .call_any {
+        display: none !important;
+    }
+    /* Mobile header bar */
+    .mob-header-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        min-height: 60px;
+        width: 100%;
+        background: #000;
+    }
+    .mob-logo img {
+        width: 120px;
+        display: block;
+    }
+    /* slicknav styles */
+    .slicknav_menu {
+        background: transparent;
+        padding: 0;
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+        flex: 1;
+    }
+    .slicknav_btn {
+        margin: 0;
+        background-color: #f39200 !important;
+        border-radius: 4px;
+        padding: 7px 10px;
+        float: none;
+    }
+    .slicknav_nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #000;
+        z-index: 9999;
+        padding: 10px 15px;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
+    }
+    .slicknav_nav ul {
+        max-height: 250px;
+        overflow-y: auto;
+    }
+    .slicknav_nav a {
+        color: #fff !important;
+        font-size: 14px;
+        padding: 8px 5px;
+    }
+    .slicknav_nav .slicknav_row a, .slicknav_nav .slicknav_row {
+        color: #fff !important;
+        margin: 0;
+    }
+    .slicknav_nav .slicknav_arrow {
+        color: #f39200;
+    }
+    header.main_header.sticky {
+        top: 0;
+        padding: 10px 15px;
+        background: #000 !important;
+    }
+    section.banner_main .container {
+        left: 0;
+        top: 15%;
+    }
+    .banner_textt h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .banner_textt h2 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .banner_textt p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .btn-style-one {
+        width: 100% !important;
+    }
+    .theme_btn2 {
+        padding: 0px 20px;
+        font-size: 12px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .banner_textt ul {
+        flex-direction: column;
+        gap: 0px;
+        margin-bottom: 20px;
+    }
+    .btn-style-one .btn-title {
+        padding: 0 20px;
+        height: 37px;
+        line-height: 39px;
+        font-size: 14px;
+        width: 100%;
+    }
+    section.banner_main .banner_from {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .banner_from h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .banner_from form input,
+    textarea {
+        height: 40px;
+    }
+    .banner_from form textarea {
+        height: 70px;
+    }
+    section.banner_main {
+        height: auto;
+        padding: 100px 0px 100px 0px;
+    }
+    .banner_main img {
+        margin: 0 0 10px 0;
+    }
+    /*.banner_main .mainvideo {*/
+    /*    display: none;*/
+    /*}*/
+    .services-section .sec-title h2 {
+        font-size: 25px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .services-section .sec-title .lower-text {
+        width: 100%;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .service-block .inner-box {
+        padding: 30px 20px;
+    }
+    .service-block {
+        margin-bottom: 10px;
+    }
+    .cta_secc h2 {
+        font-size: 20px;
+    }
+    .cta_secc span {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .cta_secc .d-flex {
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 0;
+    }
+    .portfolio_textt h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0 0 10px 0;
+    }
+    .portfolio_textt p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .port_btm_textt p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .agency-section .left-col .inner {
+        padding: 0;
+    }
+    .agency-section .sec-title {
+        margin-bottom: 10px;
+    }
+    .sec-title h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    section.agency-section {
+        padding: 30px 0px;
+        padding-bottom: 0;
+    }
+    .tabs-box ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .default-tabs .tabs-content {
+        padding-top: 10px;
+    }
+    .default-tabs .tabs-content .text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .agency-section .right-col .text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .agency-section .featured-block-two {
+        padding: 0;
+        height: auto;
+    }
+    .agency-section .featured-block-two .image {
+        display: none;
+    }
+    section.testi_secc {
+        padding: 0 0px 20px;
+    }
+    .big_imggs_testii img.rev_imgg {
+        display: none;
+    }
+    .big_imggs_testii img {
+        height: 250px;
+        border-radius: 10px;
+    }
+    .big_imggs_testii img.mrsh_imgg {
+        display: none;
+    }
+    section.testi_secc .slick-list {
+        padding: 0;
+    }
+    .test_bigg_txt_wrpp h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .test_bigg_txt_wrpp span {
+        font-size: 12px;
+    }
+    .test_bigg_txt_wrpp p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .testi_small_deal {
+        display: none;
+    }
+    .testti_btmm p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .intersted_boxx_wrpp:after {
+        display: none;
+    }
+    .intersted_boxx_wrpp {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    section.news_letter_secc {
+        margin-bottom: 20px;
+    }
+    .intersted_boxx_wrpp ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .intersted_boxx_wrpp ul li h3 {
+        font-size: 20px;
+    }
+    .intersted_boxx_wrpp ul li p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .contact_form_secc {
+        height: 100%;
+    }
+    .forms_textt_sec h2 {
+        font-size: 25px;
+    }
+    .forms_textt_sec p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .forms_textt_sec form {
+        width: 100%;
+    }
+    .forms_textt_sec form input {
+        height: 40px;
+        margin-bottom: 8px;
+    }
+    .banner_from::before {
+        display: none;
+    }
+    .forms_textt_sec form textarea {
+        height: 70px;
+        margin-bottom: 8px;
+    }
+    .faqss .faqs-heading h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .faqss .faqs-heading p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    section.faqss .col-md-12 {
+        width: 100%;
+    }
+    button.accordion {
+        padding: 10px;
+        font-size: 15px;
+        display: flex;
+        line-height: 17px;
+    }
+    button.accordion h6 {
+        font-size: 10px;
+        margin: 0;
+        width: 20px;
+        display: none;
+    }
+    .panel p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    footer {
+        padding: 30px 0px 0px;
+        height: 100%;
+    }
+    .footer_top ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .footer_top ul li h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .footer_top ul li p {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer_details img {
+        width: 70%;
+    }
+    .footer_details p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .footer_btm p {
+        font-size: 14px;
+    }
+    .inner_banner {
+        height: 100%;
+        padding-top: 160px;
+    }
+    .inner_banner_textt h1 {
+        font-size: 24px !important;
+        line-height: 30px !IMPORTANT;
+    }
+    .inner_banner_textt h2 {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .inner_banner_textt p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+    .inner_banner_textt ul {
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 20px;
+    }
+    .banner_from {
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px 20px;
+    }
+    section.publishing_ebooks h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    section.publishing_ebooks p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .profession_headingg h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+    .profession_headingg p {
+        width: 100%;
+        line-height: 20px;
+    }
+    .tabing_wrppp {
+        width: 100%;
+    }
+    ul.tabbing-links {
+        display: block;
+        text-align: center;
+        margin: 30px 0px;
+    }
+    ul.tabbing-links li {
+        font-size: 13px;
+        width: fit-content;
+        display: inline-block;
+        margin-right: 6px;
+        text-align: center;
+    }
+    .any__profession_secc {
+        height: 100%;
+    }
+    .tabss_textt ul {
+        flex-direction: column;
+        gap: 0;
+    }
+    .tabss_textt p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+    .thankyou__textt h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    section.thankyou_secc {
+        height: 100%;
+        padding: 150px 0 60px;
+        margin-bottom: 0;
+    }
+    section.youtube_vid_secc {
+        padding: 50px 0px 20px;
+    }
+    .default-tabs .tab-buttons .tab-btn {
+        width: 100%;
+    }
+    .agency-section .right-col .inner h2 {
+        font-size: 36px;
+    }
+    .portfolio_textt {
+        margin-bottom: 25px !important;
+    }
+    .faqss .faqs-heading h3 {
+        font-size: 30px !important;
+        line-height: 33px !IMPORTANT;
+    }
+    .inner_banner_textt h3 {
+        font-size: 35px;
+    }
+    .we_offer img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .ebook_imgg img {
+        margin-top: 20px;
+    }
+    .we_offer {
+        padding-bottom: 0;
+    }
+    p {
+        line-height: 1.2 !IMPORTANT;
+    }
+    .we_offer h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    section.publishing_ebooks h3 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .we_offer .main_wrpr h3 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .blg_details_textt_neww {
+        width: 100%;
+    }
+    .blg_details_textt_neww h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .testi_secc .test-videos iframe {
+        max-width: 100%;
+    }
+    .slicknav_nav .slicknav_arrow, header.main_header ul li a:after{
+        display: none;
+    }
+}
